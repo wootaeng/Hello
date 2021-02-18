@@ -1,6 +1,5 @@
 
-# Created by https://www.toptal.com/developers/gitignore/api/windows,androidstudio
-# Edit at https://www.toptal.com/developers/gitignore?templates=windows,androidstudio
+
 
 ### Windows ###
 # Windows thumbnail cache files
@@ -167,4 +166,3 @@ fabric.properties
 
 !/gradle/wrapper/gradle-wrapper.jar
 
-# End of https://www.toptal.com/developers/gitignore/api/windows,androidstudio
