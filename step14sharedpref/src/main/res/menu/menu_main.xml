@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.step14sharedpref.MainActivity">
+    <!-- 옵션 메뉴를 늘리는 곳
+        orderInCategory 숫자가 작을수록 위에 보인다
+        showAsAction 네비바에 보이는지 안보이는지
+        never:안보이게 always : 보이게 inform: 공간있음 보이게
+    -->
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <item android:id="@+id/one"
+        android:orderInCategory="1"
+        android:title="하나"
+        app:showAsAction="never"/>
+    <item android:id="@+id/two"
+        android:orderInCategory="2"
+        android:title="둘"
+        app:showAsAction="never"/>
+
+
+
+</menu>
