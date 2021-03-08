@@ -1,3 +1,6 @@
+include ':mygame'
+include ':step19webview2'
+include ':step19webview'
 include ':step18googlemap'
 include ':step17example'
 include ':step17httprequest'
